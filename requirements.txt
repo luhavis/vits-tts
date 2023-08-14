@@ -1,0 +1,7 @@
+datasets==2.14.4
+librosa==0.10.0.post2
+ko_pron
+jamo
+g2pk2
+tensorboard
+matplotlib
