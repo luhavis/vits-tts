@@ -33,12 +33,19 @@ python preprocess.py --text_index 2 --filelists configs/train.txt configs/train_
 - audio data (22,050 Hz)
 ```bash
 python train_ms.py -c {Config path} -m {Model name}
-python train_ms.py -c configs/base_resample.json -m kss
+python train_ms.py -c configs/kss/config.json -m kss
 ```
 
 ### Tensorboard
 ```bash
 tensorboard --logdir models/{Model name} --port 6006
+
+tensorboard --logdir models/kss --port 6006
+```
+
+### Run web-ui
+```bash
+python webui.py
 ```
 
 ### References
