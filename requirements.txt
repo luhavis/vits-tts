@@ -5,3 +5,4 @@ jamo
 g2pk2
 tensorboard
 matplotlib
+gradio
